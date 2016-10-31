@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <entry key="testurl">https://mail.google.com/</entry>
+    <entry key="username">xxxxx</entry>
+    <entry key="password">yyyyyy</entry>
+    <entry key="webdriverBrowser">chrome</entry>
+    <!--Changes Corresponding to New Test Config-->
+    <!--Ensure the Key Names matches @ExternalConfig annotated fields-->
+    <entry key="chromeDriverPath">C:\chromedriver.exe</entry>
+    <entry key="ffDriverPath">D:\geckodriver.exe</entry>
+    <!--<entry key="chromeDriverPath">/Documents/webdrivers/chromedriver</entry>-->
+    <entry key="appUrl">https://dev.url</entry>
+    <entry key="iedriverpath"></entry>
+    <entry key="maxTestRetryCountOnFailure">3</entry>
+</properties>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite yahoo]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.yahoo.AllInboxTestCases">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="testVerifySearchKeywordsAndUrl"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.yahoo.AllInboxTestCases -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite yahoo] -->

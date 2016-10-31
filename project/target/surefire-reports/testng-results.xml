@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite yahoo" duration-ms="20759" started-at="2016-10-30T22:04:52Z" finished-at="2016-10-30T22:05:13Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="20759" started-at="2016-10-30T22:04:52Z" finished-at="2016-10-30T22:05:13Z">
+      <class name="com.yahoo.test.AllInboxTestCases">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.yahoo.test.AllInboxTestCases@327471b5]" name="beforeSuite" is-config="true" duration-ms="6945" started-at="2016-10-30T18:04:45Z" finished-at="2016-10-30T18:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.yahoo.test.AllInboxTestCases@327471b5]" name="beforeClass" is-config="true" duration-ms="7539" started-at="2016-10-30T18:04:52Z" finished-at="2016-10-30T18:05:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="doSearch(java.lang.reflect.Method)[pri:0, instance:com.yahoo.test.AllInboxTestCases@327471b5]" name="doSearch" is-config="true" duration-ms="7245" started-at="2016-10-30T18:05:00Z" finished-at="2016-10-30T18:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.yahoo.test.AllInboxTestCases.testVerifySearchKeywordsAndUrl(com.yahoo.pages.SearchDataObject)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="testVerifySearchKeywordsAndUrl(com.yahoo.pages.SearchDataObject)[pri:0, instance:com.yahoo.test.AllInboxTestCases@327471b5]" name="testVerifySearchKeywordsAndUrl" duration-ms="1596" started-at="2016-10-30T18:05:07Z" data-provider="yahooKeywordsFromExcel" finished-at="2016-10-30T18:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.yahoo.pages.SearchDataObject@51a9ad5e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySearchKeywordsAndUrl -->
+        <test-method status="PASS" signature="doSearch(java.lang.reflect.Method)[pri:0, instance:com.yahoo.test.AllInboxTestCases@327471b5]" name="doSearch" is-config="true" duration-ms="3015" started-at="2016-10-30T18:05:09Z" finished-at="2016-10-30T18:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.yahoo.test.AllInboxTestCases.testVerifySearchKeywordsAndUrl(com.yahoo.pages.SearchDataObject)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSearch -->
+        <test-method status="PASS" signature="testVerifySearchKeywordsAndUrl(com.yahoo.pages.SearchDataObject)[pri:0, instance:com.yahoo.test.AllInboxTestCases@327471b5]" name="testVerifySearchKeywordsAndUrl" duration-ms="1112" started-at="2016-10-30T18:05:12Z" data-provider="yahooKeywordsFromExcel" finished-at="2016-10-30T18:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.yahoo.pages.SearchDataObject@5f20155b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySearchKeywordsAndUrl -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.yahoo.test.AllInboxTestCases@327471b5]" name="afterClass" is-config="true" duration-ms="7" started-at="2016-10-30T18:05:13Z" finished-at="2016-10-30T18:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.yahoo.test.AllInboxTestCases -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite yahoo -->
+</testng-results>
